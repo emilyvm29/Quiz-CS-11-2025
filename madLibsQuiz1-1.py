@@ -38,5 +38,5 @@ if play == "y":
     
     print("Thanks for playing! Goodbye!")
     
-    else play == "n":
+else play == "n":
     print("Goodbye!")
