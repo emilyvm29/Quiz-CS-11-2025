@@ -8,14 +8,14 @@ print("|      Welcome to MadLibs          | ")
 print("|                                  |")
 print("************************************")
 
-(''MadLibs is a fill-in-the-blanks story
+('''MadLibs is a fill-in-the-blanks story
 game. The player must choose words based on the 
 given prompts, and the computer will return a 
 short story that includes the words the user chose.''')
 
 play = input("Do you want to play MadLibs?(y/n) ")
 
-if play == "y"
+if play == "y":
     person_name = input("Choose a name for a person: ")
     place = input("Choose a place: ")
     noun_1 = input("Choose a singlular noun: ")
@@ -38,8 +38,5 @@ if play == "y"
     
     print("Thanks for playing! Goodbye!")
     
-    else:
+    else play == "n":
     print("Goodbye!")
-    
-
-    
